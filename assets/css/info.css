@@ -1,0 +1,88 @@
+/*mask*/
+.mask-light{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(100%,100%,100%,0.3);
+	z-index: 2;
+}
+/*info-jumbotron*/
+.info-jumbotron{
+	/*margin-bottom: 40px;*/
+}
+
+.info-jumbotron__image{
+	/*border: 1px solid blue;*/
+	height: 75vh;
+	width: 100%;
+	background-image: url(../images/jumbotron/002.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.info-jumbotron__content{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left:0;
+	z-index: 3;
+}
+
+.info-jumbotron__heading{
+	/*border:1px solid blue;*/
+	color:#444444;
+	font-size:75px;
+	font-weight: 800;
+}
+@media(max-width: 768px){
+	.info-jumbotron__heading{
+		font-size: 60px;
+	}
+}
+@media(max-width: 576px){
+	.info-jumbotron__heading{
+		font-size: 48px;
+	}
+}
+/*info-card*/
+.info-card{
+	background-color: #fbfbfb;
+	padding:16px;
+	box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+	margin-bottom: 16px;
+	border-radius: 4px;
+}
+
+.info-card .image{
+	width: 100%;
+	display: block;
+	margin-bottom: 16px;
+}
+
+.info-card .heading-5{
+	line-height: 24px;
+	font-size: 20px;
+	font-weight: 800;
+	color: #D41241;
+	margin-bottom: 20px;
+}
+.info-card .info-description{
+	line-height: 24px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.info-card .para{
+	line-height: 24px;
+	font-size: 16px;
+	font-weight: 400;
+}
+

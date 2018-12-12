@@ -1,0 +1,139 @@
+/*mask*/
+/*.mask-dark{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.7);
+}*/
+
+/*jumbotron*/
+.about-jumbotron{
+	/*border:1px solid #000;*/
+	/*margin-bottom: 64px;*/
+}
+
+.about-jumbotron__image{
+	/*border: 1px solid blue;*/
+	width: 100%;
+	height: 75vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.about-jumbotron__content{
+	/*border: 1px solid red;*/
+	width: 100%;
+	height: 95%;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	position: absolute;
+	top: 5%;
+	left:0;
+}
+
+.about-jumbotron__heading{
+	/*border:1px solid blue;*/
+	color: #444444;
+	font-size:75px;
+	font-weight: 800;
+}
+
+.about-jumbotron__description{
+	margin-top: 16px;
+	color: #444444;
+	font-size:30px;
+	font-weight: 800;
+}
+
+.about-jumbotron__description .logoname{
+	margin-top: 16px;
+	padding-right: 12px;
+	color: #D41241;
+	font-size:28px;
+	font-weight: 800;
+}
+
+/*about*/
+.about-title,.team-title{
+	text-align: center;
+}
+.image-container{
+	width: 100%;
+	display: block;
+	position: relative;	
+}
+.image-container:before{
+	content: "";
+	display: block;
+	width: 100%;
+	padding-top: 75%;
+	background-color: #B2BAC4;
+}
+.about-image{
+	/*border: 1px solid #000;*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.about-heading{
+	font-size: 48px;
+}
+.about-para{
+	color: #686C71;
+	font-weight: 800;
+	padding: 0 180px;
+	/*font-size: 20px;*/
+	line-height:48px;
+	text-align:left;
+
+}
+
+/*avatar*/
+.avatar-card{
+	/*border: 1px solid #000;*/
+}
+
+.avatar{
+	display:block;
+	width: 100%;
+	border-radius: 50%;
+	background-color:#B2BAC4; 
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.avatar:after{
+	content: '';
+	width: 100%;
+	display: block;
+	padding-top: 100%;
+}
+
+.avatar--md{
+	width: 250px;
+}
+
+.avatar-heading{
+	font-size: 32px;
+	text-align: center;
+	color: #686C71;
+	text-decoration: none;
+	margin: 0;
+}
+
+.avatar-para{
+	font-size: 20px;
+	text-align: center;
+	margin: 0;
+}

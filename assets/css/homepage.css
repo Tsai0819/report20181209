@@ -1,0 +1,63 @@
+/*easyrecipe*/
+.easyrecipe-title{
+	/*margin-bottom: 32px;*/
+	/*margin-top: 32px;*/
+	text-align: center;
+	font-weight: 800;
+}
+
+.easyrecipe-title-rwd{
+	display: none;
+}
+
+.easyrecipe-sub-title{
+	/*margin-bottom: 24px;*/
+	text-align: center;
+	font-weight: 800;
+}
+
+/*hardrecipe*/
+
+.hardrecipe-title{
+	/*margin-bottom: 32px;*/
+	/*margin-top: 32px;*/
+	text-align: center;
+	font-weight: 800;
+}
+
+/*videorecipe*/
+.videorecipe-title{
+	/*margin-bottom: 32px;*/
+	/*margin-top: 32px;*/
+	text-align: center;
+	font-weight: 800;
+}
+
+@media(max-width: 768px){
+	.easyrecipe-title{
+		display: none;
+	}
+	.easyrecipe-title-rwd{
+		display: block;
+		text-align: center;
+		font-weight: 800;
+	}
+	.easyrecipe-sub-title{
+		display: none;
+	}
+}
+
+@media(max-width: 576px){
+	.easyrecipe-title{
+		display: none;
+	}
+	.easyrecipe-title-rwd{
+		display: block;
+		text-align: center;
+		font-weight: 800;
+	}
+	.easyrecipe-sub-title{
+		display: none;
+	}
+}
+
